@@ -1,6 +1,6 @@
 # Sports Assistant CLI
 
-A simple command-line sports question-answering tool powered by Groq's free LLM API.
+A simple command-line sports question-answering tool using Groq's free API
 
 ## Setup
 
@@ -10,8 +10,8 @@ A simple command-line sports question-answering tool powered by Groq's free LLM 
    ```
 
 2. **Get a free Groq API key:**
-   - Visit https://console.groq.com
-   - Sign up for a free account
+   - https://console.groq.com
+   - Sign up
    - Generate an API key
 
 3. **Set your API key:**
@@ -23,7 +23,7 @@ A simple command-line sports question-answering tool powered by Groq's free LLM 
 
 Run the script:
 ```bash
-python sports_assistant.py
+python sports_ai.py
 ```
 
 Ask any sports-related questions:
@@ -37,6 +37,5 @@ Type `quit` or `exit` to leave.
 ## Features
 
 - Uses Groq's free Llama 3.3 70B model
-- Interactive CLI interface
-- Concise, informative sports answers
+- Interactive CLI
 - No rate limiting concerns with free tier
